@@ -3,3 +3,82 @@
     margin: 0;
     box-sizing: border-box;
 }
+header{
+    width: 100vw;
+    height: 100vh;
+}
+nav{
+    width: 100vw;
+    height: 10vh;
+    background-color: #0174BE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+.navOption{
+    margin-right: 20px;
+    color: white;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+h1{
+    color: white;
+    margin-left: 20px;
+    font-family: sans-serif;   
+}
+.main{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+}
+.left{
+    height: 90vh;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+}
+.right{
+    height: 90vh;
+    width: 50vw;
+    background: url(rynek.jpg);
+    filter: brightness(60%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+ol{
+    
+}
+.paragraph1{
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 400px;
+    text-align:left;
+    font-size: 33px;
+    margin-left: 80px;
+}
+.buttonLogin,
+.buttonSignup{
+    border: none;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+}
+.buttonSignup{
+    background-color: #DDF2FD;
+}
+.buttonLogin{
+    background-color: #BE3144;
+    color: white;
+    margin-right: 10px;
+}
+.buttons{
+    display: flex;
+
+}
